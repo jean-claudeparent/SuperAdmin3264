@@ -2,7 +2,10 @@
 $CouleurTexte = "Black"
 $CouleurFond ="White"
 
-$Host.PrivateData.ErrorForegroundColor =$CouleurTexte
+
+
+Host.PrivateData | out-file log.txt
+
 $Host.PrivateData.DebugBackgroundColor = $CouleurFond$Host.PrivateData.DebugForegroundColor = $CouleurTexte
 $Host.PrivateData.ErrorBackgroundColor = $CouleurFond
 $Host.PrivateData.ErrorForegroundColor = $CouleurTexte
@@ -14,7 +17,9 @@ $Host.PrivateData.WarningBackgroundColor = $CouleurFond
 $Host.PrivateData.WarningForegroundColor = $CouleurTexte
 
 
-$Host.PrivateData.ErrorForegroundColor 
+$
+$Host.PrivateData.ErrorForegroundColor =$CouleurTexte
+
 $Host.PrivateData.DebugBackgroundColor = $CouleurFond$Host.PrivateData.DebugForegroundColor = $CouleurTexte
 $Host.PrivateData.ErrorBackgroundColor = $CouleurFond
 $Host.PrivateData.ErrorForegroundColor = $CouleurTexte
