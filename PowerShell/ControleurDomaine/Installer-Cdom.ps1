@@ -9,13 +9,13 @@ Function DebutInstallaation()
 
 Function Set-Resolution()
 {
-  Get-DisplayResolution
+  
   $Resolution = Get-DisplayResolution
-  if ($Resolution -eq "800x600")
+  Write-Output  "Résolution actuelle  $Resolution"
+  if ($Resolution -ne "1260x729")
   {
      "Augmenter la résolution"
-  # la vm be supporte pas plus de 800x600
-  #  Set-DisplayResolution 1280 720
+    Set-DisplayResolution 1260 720
    Get-DisplayResolution
   }
 }
@@ -42,7 +42,7 @@ else
 }
 }
 
-Function FinUbsrakkatuib()
+Function FinInstallation()
 {
   Stop-Transcript
 }
@@ -53,11 +53,16 @@ Function FinUbsrakkatuib()
 
 try
 {
-DebutInstallaation
+   DebutInstallaation
+   Set-Resolution
 }
 catch
 {
   "Erreur d'exécution"
   Write-Output  $PSItem
 
+}
+Finally
+{
+   FinInstallation
 }
