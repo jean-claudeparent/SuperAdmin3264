@@ -1,20 +1,20 @@
-
+ï»¿
   
 Function DebutInstallaation()
 {
   Start-Transcript z:\SuperAdmin3264\PowerShell\CDom.txt
 
-  "Installer la configuration de contrôlleur de domaine pour le lab"
+  "Installer la configuration de contrï¿½lleur de domaine pour le lab"
 }
 
 Function Set-Resolution()
 {
   
   $Resolution = Get-DisplayResolution
-  Write-Output  "Résolution actuelle  $Resolution"
+  Write-Output  "Rï¿½solution actuelle  $Resolution"
   if ($Resolution -ne "1260x729")
   {
-     "Augmenter la résolution"
+     "Augmenter la rï¿½solution"
     Set-DisplayResolution 1260 720
    Get-DisplayResolution
   }
@@ -28,18 +28,20 @@ Get-Timezone
 Function Set-Ethernet()
 {
 "Test de l'interface ethernet0"
-$IPs = (Get-NETIPAddress | select-object -Property interfacealisa)
-if ($IPs -contains "ethernet0")
+$IPV4 = ..\Communs\Get-IndexPV4.ps1
+$IPV4
+#$IPs = (Get-NETIPAddress | select-object -Property interfacealisa)
+if ($IPs -contains $IPV4 )
 {
-  "Caractéristique de l'interface"
-  Get-NETIPAddress -InterfaceAlias "efhernet0"
+  Write-Output "Ã‰tat actuel de la configuration"
+  Get-NETIPAddress
+  Set-NetIPAddress
+
+  Get-NETIPAddress -InterfaceAlias $IPV4
 }
 else
 {
-  New-NetIPAddress -InterfaceAlias "efhernet0" -IpAdress 192.168.0.67  -PrefixLength 24  -DefaultGateway 192.168.0.1
-
-  Get-NETIPAddress -InterfaceAlias "ethernet0"
-}
+  Tjrow "Il doit dï¿½lï¿½ exister une connection ipv4 pour que ï¿½a marchr..."
 }
 
 Function FinInstallation()
@@ -55,10 +57,12 @@ try
 {
    DebutInstallaation
    Set-Resolution
+   Verifie-TimeZone
+   Set-Ethernet
 }
 catch
 {
-  "Erreur d'exécution"
+  "Erreur d'exï¿½cution"
   Write-Output  $PSItem
 
 }
