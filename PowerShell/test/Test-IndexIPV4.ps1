@@ -1,0 +1,1 @@
+$Resultat = ..\Communs\Get-IndexIPV4.ps1
