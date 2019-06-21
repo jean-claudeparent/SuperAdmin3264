@@ -135,3 +135,91 @@ D:\Devcenter\sources\SuperAdmin3264\powershell\test\Test-IndexIPV4.ps1:11 : 3
     + FullyQualifiedErrorId : Modules_ModuleNotFound,Microsoft.PowerShell.Comm
    ands.ImportModuleCommand
 
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+Transcription démarrée, le fichier de sortie est D:\Devcenter\sources\SuperAdmi
+n3264\powershell\test\Log.txt
+Module à tester : D:\Devcenter\sources\SuperAdmin3264\powershell\test\..\Module
+s\
+Import-Module : Le module «
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\..\Modules\» spécifié n'a
+pas été chargé, car aucun fichier de module valide n'a été trouvé dans un
+répertoire de module.
+Au caractère
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\Test-IndexIPV4.ps1:11 : 3
++   Import-Module -name  $ModuleAtester -Force -Verbose
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (D:\Devcenter\so...est\..\M
+   odules\:String) [Import-Module], FileNotFoundException
+    + FullyQualifiedErrorId : Modules_ModuleNotFound,Microsoft.PowerShell.Comm
+   ands.ImportModuleCommand
+
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+Transcription démarrée, le fichier de sortie est D:\Devcenter\sources\SuperAdmi
+n3264\powershell\test\Log.txt
+Module à tester : D:\Devcenter\sources\SuperAdmin3264\powershell\test\..\Module
+s\
+Import-Module : Le module «
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\..\Modules\» spécifié n'a
+pas été chargé, car aucun fichier de module valide n'a été trouvé dans un
+répertoire de module.
+Au caractère
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\Test-IndexIPV4.ps1:11 : 3
++   Import-Module -name  $ModuleAtester -Force -Verbose
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (D:\Devcenter\so...est\..\M
+   odules\:String) [Import-Module], FileNotFoundException
+    + FullyQualifiedErrorId : Modules_ModuleNotFound,Microsoft.PowerShell.Comm
+   ands.ImportModuleCommand
+
+Transcription arrêtée, le fichier de sortie est D:\Devcenter\sources\SuperAdmin
+3264\powershell\test\Log.txt
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+Transcription démarrée, le fichier de sortie est D:\Devcenter\sources\SuperAdmi
+n3264\powershell\test\Log.txt
+Module à tester : D:\Devcenter\sources\SuperAdmin3264\powershell\test\..\Module
+s\
+Import-Module : Le module «
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\..\Modules\» spécifié n'a
+pas été chargé, car aucun fichier de module valide n'a été trouvé dans un
+répertoire de module.
+Au caractère
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\Test-IndexIPV4.ps1:11 : 3
++   Import-Module -name  $ModuleAtester -Force -Verbose
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (D:\Devcenter\so...est\..\M
+   odules\:String) [Import-Module], FileNotFoundException
+    + FullyQualifiedErrorId : Modules_ModuleNotFound,Microsoft.PowerShell.Comm
+   ands.ImportModuleCommand
+
+Transcription arrêtée, le fichier de sortie est D:\Devcenter\sources\SuperAdmin
+3264\powershell\test\Log.txt
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+Transcription démarrée, le fichier de sortie est D:\Devcenter\sources\SuperAdmi
+n3264\powershell\test\Log.txt
+Module à tester : D:\Devcenter\sources\SuperAdmin3264\powershell\test\..\Module
+s\
+Import-Module : Le module «
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\..\Modules\» spécifié n'a
+pas été chargé, car aucun fichier de module valide n'a été trouvé dans un
+répertoire de module.
+Au caractère
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\Test-IndexIPV4.ps1:11 : 3
++   Import-Module -name  $ModuleAtester -Force -Verbose
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (D:\Devcenter\so...est\..\M
+   odules\:String) [Import-Module], FileNotFoundException
+    + FullyQualifiedErrorId : Modules_ModuleNotFound,Microsoft.PowerShell.Comm
+   ands.ImportModuleCommand
+
+Transcription arrêtée, le fichier de sortie est D:\Devcenter\sources\SuperAdmin
+3264\powershell\test\Log.txt
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> exit
+**********************
+Fin de la transcription Windows PowerShell
+Heure de fin : 20190621185443
+**********************
