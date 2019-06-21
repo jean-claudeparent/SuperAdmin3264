@@ -1,0 +1,546 @@
+﻿**********************
+Début de la transcription Windows PowerShell
+Heure de début : 20190621065710
+Nom d'utilisateur : LENOVO-PC\Proprio
+Utilisateur RunAs : LENOVO-PC\Proprio
+Ordinateur : LENOVO-PC (Microsoft Windows NT 6.3.9600.0)
+Application hôte : C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ID de processus : 9716
+**********************
+Transcription démarrée, le fichier de sortie est Journal
+Transcription démarrée, le fichier de sortie est Journal
+Transcription démarrée, le fichier de sortie est Journal
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+Journal : Le terme «Journal» n'est pas reconnu comme nom d'applet de commande,
+Journal : Le terme «Journal» n'est pas reconnu comme nom d'applet de commande,
+Journal : Le terme «Journal» n'est pas reconnu comme nom d'applet de commande,
+fonction, fichier de script ou programme exécutable. Vérifiez l'orthographe du
+fonction, fichier de script ou programme exécutable. Vérifiez l'orthographe du
+fonction, fichier de script ou programme exécutable. Vérifiez l'orthographe du
+nom, ou si un chemin d'accès existe, vérifiez que le chemin d'accès est
+nom, ou si un chemin d'accès existe, vérifiez que le chemin d'accès est
+nom, ou si un chemin d'accès existe, vérifiez que le chemin d'accès est
+correct et réessayez.
+correct et réessayez.
+correct et réessayez.
+Au caractère
+Au caractère
+Au caractère
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\Test-IndexIPV4.ps1:5 : 17
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\Test-IndexIPV4.ps1:5 : 17
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\Test-IndexIPV4.ps1:5 : 17
++   $Journal = "$(Journal)\Log.txt"
++   $Journal = "$(Journal)\Log.txt"
++   $Journal = "$(Journal)\Log.txt"
++                 ~~~~~~~
++                 ~~~~~~~
++                 ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Journal:String) [], CommandNotF
+    + CategoryInfo          : ObjectNotFound: (Journal:String) [], CommandNotF
+    + CategoryInfo          : ObjectNotFound: (Journal:String) [], CommandNotF
+   oundException
+   oundException
+   oundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+
+
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+Journal : Le terme «Journal» n'est pas reconnu comme nom d'applet de commande,
+Journal : Le terme «Journal» n'est pas reconnu comme nom d'applet de commande,
+Journal : Le terme «Journal» n'est pas reconnu comme nom d'applet de commande,
+fonction, fichier de script ou programme exécutable. Vérifiez l'orthographe du
+fonction, fichier de script ou programme exécutable. Vérifiez l'orthographe du
+fonction, fichier de script ou programme exécutable. Vérifiez l'orthographe du
+nom, ou si un chemin d'accès existe, vérifiez que le chemin d'accès est
+nom, ou si un chemin d'accès existe, vérifiez que le chemin d'accès est
+nom, ou si un chemin d'accès existe, vérifiez que le chemin d'accès est
+correct et réessayez.
+correct et réessayez.
+correct et réessayez.
+Au caractère
+Au caractère
+Au caractère
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\Test-IndexIPV4.ps1:6 : 17
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\Test-IndexIPV4.ps1:6 : 17
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\Test-IndexIPV4.ps1:6 : 17
++   $Journal = "$(Journal)\Log.txt"
++   $Journal = "$(Journal)\Log.txt"
++   $Journal = "$(Journal)\Log.txt"
++                 ~~~~~~~
++                 ~~~~~~~
++                 ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Journal:String) [], CommandNotF
+    + CategoryInfo          : ObjectNotFound: (Journal:String) [], CommandNotF
+    + CategoryInfo          : ObjectNotFound: (Journal:String) [], CommandNotF
+   oundException
+   oundException
+   oundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+
+
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+{0}{1}
+{0}{1}
+{0}{1}
+D:\Devcenter\sources\SuperAdmin3264\powershell\test
+D:\Devcenter\sources\SuperAdmin3264\powershell\test
+D:\Devcenter\sources\SuperAdmin3264\powershell\test
+Log.txt
+Log.txt
+Log.txt
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> Erreur de terminaison (Start-Transcript) : « Impossible de convertir « System.Object[] » en type « System.String », requis par le paramètre « OutputDirectory ». La méthode spécifiée n'est pas prise en charge. »
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> Erreur de terminaison (Start-Transcript) : « Impossible de convertir « System.Object[] » en type « System.String », requis par le paramètre « OutputDirectory ». La méthode spécifiée n'est pas prise en charge. »
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> Erreur de terminaison (Start-Transcript) : « Impossible de convertir « System.Object[] » en type « System.String », requis par le paramètre « OutputDirectory ». La méthode spécifiée n'est pas prise en charge. »
+Start-Transcript : Impossible de convertir «System.Object[]» en type «
+Start-Transcript : Impossible de convertir «System.Object[]» en type «
+Start-Transcript : Impossible de convertir «System.Object[]» en type «
+System.String», requis par le paramètre «OutputDirectory». La méthode
+System.String», requis par le paramètre «OutputDirectory». La méthode
+System.String», requis par le paramètre «OutputDirectory». La méthode
+spécifiée n'est pas prise en charge.
+spécifiée n'est pas prise en charge.
+spécifiée n'est pas prise en charge.
+Au caractère
+Au caractère
+Au caractère
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\Test-IndexIPV4.ps1:7 : 20
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\Test-IndexIPV4.ps1:7 : 20
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\Test-IndexIPV4.ps1:7 : 20
++   Start-Transcript $Journal
++   Start-Transcript $Journal
++   Start-Transcript $Journal
++                    ~~~~~~~~
++                    ~~~~~~~~
++                    ~~~~~~~~
+    + CategoryInfo          : InvalidArgument : (:) [Start-Transcript], Parame
+    + CategoryInfo          : InvalidArgument : (:) [Start-Transcript], Parame
+    + CategoryInfo          : InvalidArgument : (:) [Start-Transcript], Parame
+   terBindingException
+   terBindingException
+   terBindingException
+    + FullyQualifiedErrorId : CannotConvertArgument,Microsoft.PowerShell.Comma
+    + FullyQualifiedErrorId : CannotConvertArgument,Microsoft.PowerShell.Comma
+    + FullyQualifiedErrorId : CannotConvertArgument,Microsoft.PowerShell.Comma
+   nds.StartTranscriptCommand
+   nds.StartTranscriptCommand
+   nds.StartTranscriptCommand
+
+
+
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+D:\Devcenter\sources\SuperAdmin3264\powershell\testLog.txt
+D:\Devcenter\sources\SuperAdmin3264\powershell\testLog.txt
+D:\Devcenter\sources\SuperAdmin3264\powershell\testLog.txt
+Transcription démarrée, le fichier de sortie est D:\Devcenter\sources\SuperAdmi
+Transcription démarrée, le fichier de sortie est D:\Devcenter\sources\SuperAdmi
+Transcription démarrée, le fichier de sortie est D:\Devcenter\sources\SuperAdmi
+n3264\powershell\testLog.txt
+n3264\powershell\testLog.txt
+n3264\powershell\testLog.txt
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\Log.txt
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\Log.txt
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\Log.txt
+Transcription démarrée, le fichier de sortie est D:\Devcenter\sources\SuperAdmi
+Transcription démarrée, le fichier de sortie est D:\Devcenter\sources\SuperAdmi
+Transcription démarrée, le fichier de sortie est D:\Devcenter\sources\SuperAdmi
+n3264\powershell\test\Log.txt
+n3264\powershell\test\Log.txt
+n3264\powershell\test\Log.txt
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+Transcription démarrée, le fichier de sortie est D:\Devcenter\sources\SuperAdmi
+Transcription démarrée, le fichier de sortie est D:\Devcenter\sources\SuperAdmi
+Transcription démarrée, le fichier de sortie est D:\Devcenter\sources\SuperAdmi
+n3264\powershell\test\Log.txt
+n3264\powershell\test\Log.txt
+n3264\powershell\test\Log.txt
+PSScriptRoot : Le terme «PSScriptRoot» n'est pas reconnu comme nom d'applet de
+PSScriptRoot : Le terme «PSScriptRoot» n'est pas reconnu comme nom d'applet de
+PSScriptRoot : Le terme «PSScriptRoot» n'est pas reconnu comme nom d'applet de
+commande, fonction, fichier de script ou programme exécutable. Vérifiez
+commande, fonction, fichier de script ou programme exécutable. Vérifiez
+commande, fonction, fichier de script ou programme exécutable. Vérifiez
+l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le chemin
+l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le chemin
+l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le chemin
+d'accès est correct et réessayez.
+d'accès est correct et réessayez.
+d'accès est correct et réessayez.
+Au caractère
+Au caractère
+Au caractère
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\Test-IndexIPV4.ps1:8 : 20
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\Test-IndexIPV4.ps1:8 : 20
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\Test-IndexIPV4.ps1:8 : 20
++   $ModuleAtester = PSScriptRoot + '\..\Modules\'
++   $ModuleAtester = PSScriptRoot + '\..\Modules\'
++   $ModuleAtester = PSScriptRoot + '\..\Modules\'
++                    ~~~~~~~~~~~~
++                    ~~~~~~~~~~~~
++                    ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (PSScriptRoot:String) [], Comman
+    + CategoryInfo          : ObjectNotFound: (PSScriptRoot:String) [], Comman
+    + CategoryInfo          : ObjectNotFound: (PSScriptRoot:String) [], Comman
+   dNotFoundException
+   dNotFoundException
+   dNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+
+
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+Transcription démarrée, le fichier de sortie est D:\Devcenter\sources\SuperAdmi
+Transcription démarrée, le fichier de sortie est D:\Devcenter\sources\SuperAdmi
+Transcription démarrée, le fichier de sortie est D:\Devcenter\sources\SuperAdmi
+n3264\powershell\test\Log.txt
+n3264\powershell\test\Log.txt
+n3264\powershell\test\Log.txt
+Write-OutputModule à tester : $(ModuleAtester) : Le terme «Write-OutputModule
+Write-OutputModule à tester : $(ModuleAtester) : Le terme «Write-OutputModule
+Write-OutputModule à tester : $(ModuleAtester) : Le terme «Write-OutputModule
+à tester : $(ModuleAtester)» n'est pas reconnu comme nom d'applet de commande,
+à tester : $(ModuleAtester)» n'est pas reconnu comme nom d'applet de commande,
+à tester : $(ModuleAtester)» n'est pas reconnu comme nom d'applet de commande,
+fonction, fichier de script ou programme exécutable. Vérifiez l'orthographe du
+fonction, fichier de script ou programme exécutable. Vérifiez l'orthographe du
+fonction, fichier de script ou programme exécutable. Vérifiez l'orthographe du
+nom, ou si un chemin d'accès existe, vérifiez que le chemin d'accès est
+nom, ou si un chemin d'accès existe, vérifiez que le chemin d'accès est
+nom, ou si un chemin d'accès existe, vérifiez que le chemin d'accès est
+correct et réessayez.
+correct et réessayez.
+correct et réessayez.
+Au caractère
+Au caractère
+Au caractère
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\Test-IndexIPV4.ps1:9 : 3
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\Test-IndexIPV4.ps1:9 : 3
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\Test-IndexIPV4.ps1:9 : 3
++   Write-Output"Module à tester : $(ModuleAtester)"
++   Write-Output"Module à tester : $(ModuleAtester)"
++   Write-Output"Module à tester : $(ModuleAtester)"
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Write-OutputMod...(ModuleAteste
+    + CategoryInfo          : ObjectNotFound: (Write-OutputMod...(ModuleAteste
+    + CategoryInfo          : ObjectNotFound: (Write-OutputMod...(ModuleAteste
+   r):String) [], CommandNotFoundException
+   r):String) [], CommandNotFoundException
+   r):String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+
+
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+Transcription démarrée, le fichier de sortie est D:\Devcenter\sources\SuperAdmi
+Transcription démarrée, le fichier de sortie est D:\Devcenter\sources\SuperAdmi
+Transcription démarrée, le fichier de sortie est D:\Devcenter\sources\SuperAdmi
+n3264\powershell\test\Log.txt
+n3264\powershell\test\Log.txt
+n3264\powershell\test\Log.txt
+ModuleAtester : Le terme «ModuleAtester» n'est pas reconnu comme nom d'applet
+ModuleAtester : Le terme «ModuleAtester» n'est pas reconnu comme nom d'applet
+ModuleAtester : Le terme «ModuleAtester» n'est pas reconnu comme nom d'applet
+de commande, fonction, fichier de script ou programme exécutable. Vérifiez
+de commande, fonction, fichier de script ou programme exécutable. Vérifiez
+de commande, fonction, fichier de script ou programme exécutable. Vérifiez
+l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le chemin
+l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le chemin
+l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le chemin
+d'accès est correct et réessayez.
+d'accès est correct et réessayez.
+d'accès est correct et réessayez.
+Au caractère
+Au caractère
+Au caractère
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\Test-IndexIPV4.ps1:9 : 37
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\Test-IndexIPV4.ps1:9 : 37
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\Test-IndexIPV4.ps1:9 : 37
++   Write-Output "Module à tester : $(ModuleAtester)"
++   Write-Output "Module à tester : $(ModuleAtester)"
++   Write-Output "Module à tester : $(ModuleAtester)"
++                                     ~~~~~~~~~~~~~
++                                     ~~~~~~~~~~~~~
++                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (ModuleAtester:String) [], Comma
+    + CategoryInfo          : ObjectNotFound: (ModuleAtester:String) [], Comma
+    + CategoryInfo          : ObjectNotFound: (ModuleAtester:String) [], Comma
+   ndNotFoundException
+   ndNotFoundException
+   ndNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+
+
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+Transcription démarrée, le fichier de sortie est D:\Devcenter\sources\SuperAdmi
+Transcription démarrée, le fichier de sortie est D:\Devcenter\sources\SuperAdmi
+Transcription démarrée, le fichier de sortie est D:\Devcenter\sources\SuperAdmi
+n3264\powershell\test\Log.txt
+n3264\powershell\test\Log.txt
+n3264\powershell\test\Log.txt
+Module à tester :
+Module à tester :
+Module à tester :
++
++
++
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\..\Modules\
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\..\Modules\
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\..\Modules\
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+Transcription démarrée, le fichier de sortie est D:\Devcenter\sources\SuperAdmi
+Transcription démarrée, le fichier de sortie est D:\Devcenter\sources\SuperAdmi
+Transcription démarrée, le fichier de sortie est D:\Devcenter\sources\SuperAdmi
+n3264\powershell\test\Log.txt
+n3264\powershell\test\Log.txt
+n3264\powershell\test\Log.txt
+Module à tester : D:\Devcenter\sources\SuperAdmin3264\powershell\test\..\Module
+Module à tester : D:\Devcenter\sources\SuperAdmin3264\powershell\test\..\Module
+Module à tester : D:\Devcenter\sources\SuperAdmin3264\powershell\test\..\Module
+s\
+s\
+s\
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+Transcription démarrée, le fichier de sortie est D:\Devcenter\sources\SuperAdmi
+Transcription démarrée, le fichier de sortie est D:\Devcenter\sources\SuperAdmi
+Transcription démarrée, le fichier de sortie est D:\Devcenter\sources\SuperAdmi
+n3264\powershell\test\Log.txt
+n3264\powershell\test\Log.txt
+n3264\powershell\test\Log.txt
+Module à tester : D:\Devcenter\sources\SuperAdmin3264\powershell\test\..\Module
+Module à tester : D:\Devcenter\sources\SuperAdmin3264\powershell\test\..\Module
+Module à tester : D:\Devcenter\sources\SuperAdmin3264\powershell\test\..\Module
+s\
+s\
+s\
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> Erreur de terminaison (Import-Module) : « Impossible de lier le paramètre, car le paramètre « Force » est spécifié plusieurs fois. Pour fournir plusieurs valeurs aux paramètres qui les acceptent, utilisez la syntaxe de tableau. Par exemple, « -parameter valeur1,valeur2,valeur3 ». »
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> Erreur de terminaison (Import-Module) : « Impossible de lier le paramètre, car le paramètre « Force » est spécifié plusieurs fois. Pour fournir plusieurs valeurs aux paramètres qui les acceptent, utilisez la syntaxe de tableau. Par exemple, « -parameter valeur1,valeur2,valeur3 ». »
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> Erreur de terminaison (Import-Module) : « Impossible de lier le paramètre, car le paramètre « Force » est spécifié plusieurs fois. Pour fournir plusieurs valeurs aux paramètres qui les acceptent, utilisez la syntaxe de tableau. Par exemple, « -parameter valeur1,valeur2,valeur3 ». »
+Import-Module : Impossible de lier le paramètre, car le paramètre «Force» est
+Import-Module : Impossible de lier le paramètre, car le paramètre «Force» est
+Import-Module : Impossible de lier le paramètre, car le paramètre «Force» est
+spécifié plusieurs fois. Pour fournir plusieurs valeurs aux paramètres qui les
+spécifié plusieurs fois. Pour fournir plusieurs valeurs aux paramètres qui les
+spécifié plusieurs fois. Pour fournir plusieurs valeurs aux paramètres qui les
+acceptent, utilisez la syntaxe de tableau. Par exemple, «-parameter
+acceptent, utilisez la syntaxe de tableau. Par exemple, «-parameter
+acceptent, utilisez la syntaxe de tableau. Par exemple, «-parameter
+valeur1,valeur2,valeur3».
+valeur1,valeur2,valeur3».
+valeur1,valeur2,valeur3».
+Au caractère
+Au caractère
+Au caractère
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\Test-IndexIPV4.ps1:11 : 72
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\Test-IndexIPV4.ps1:11 : 72
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\Test-IndexIPV4.ps1:11 : 72
++   Import-Module $ModuleAtester -name .\LabSA3264.psm1 -Force -Verbose  -Force
++   Import-Module $ModuleAtester -name .\LabSA3264.psm1 -Force -Verbose  -Force
++   Import-Module $ModuleAtester -name .\LabSA3264.psm1 -Force -Verbose  -Force
++                                                                        ~~~~~~
++                                                                        ~~~~~~
++                                                                        ~~~~~~
+    + CategoryInfo          : InvalidArgument : (:) [Import-Module], Parameter
+    + CategoryInfo          : InvalidArgument : (:) [Import-Module], Parameter
+    + CategoryInfo          : InvalidArgument : (:) [Import-Module], Parameter
+   BindingException
+   BindingException
+   BindingException
+    + FullyQualifiedErrorId : ParameterAlreadyBound,Microsoft.PowerShell.Comma
+    + FullyQualifiedErrorId : ParameterAlreadyBound,Microsoft.PowerShell.Comma
+    + FullyQualifiedErrorId : ParameterAlreadyBound,Microsoft.PowerShell.Comma
+   nds.ImportModuleCommand
+   nds.ImportModuleCommand
+   nds.ImportModuleCommand
+
+
+
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+Transcription démarrée, le fichier de sortie est D:\Devcenter\sources\SuperAdmi
+Transcription démarrée, le fichier de sortie est D:\Devcenter\sources\SuperAdmi
+Transcription démarrée, le fichier de sortie est D:\Devcenter\sources\SuperAdmi
+n3264\powershell\test\Log.txt
+n3264\powershell\test\Log.txt
+n3264\powershell\test\Log.txt
+Module à tester : D:\Devcenter\sources\SuperAdmin3264\powershell\test\..\Module
+Module à tester : D:\Devcenter\sources\SuperAdmin3264\powershell\test\..\Module
+Module à tester : D:\Devcenter\sources\SuperAdmin3264\powershell\test\..\Module
+s\
+s\
+s\
+Import-Module : Le module «
+Import-Module : Le module «
+Import-Module : Le module «
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\..\Modules\» spécifié n'a
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\..\Modules\» spécifié n'a
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\..\Modules\» spécifié n'a
+pas été chargé, car aucun fichier de module valide n'a été trouvé dans un
+pas été chargé, car aucun fichier de module valide n'a été trouvé dans un
+pas été chargé, car aucun fichier de module valide n'a été trouvé dans un
+répertoire de module.
+répertoire de module.
+répertoire de module.
+Au caractère
+Au caractère
+Au caractère
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\Test-IndexIPV4.ps1:11 : 3
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\Test-IndexIPV4.ps1:11 : 3
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\Test-IndexIPV4.ps1:11 : 3
++   Import-Module -name  $ModuleAtester -Force -Verbose
++   Import-Module -name  $ModuleAtester -Force -Verbose
++   Import-Module -name  $ModuleAtester -Force -Verbose
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (D:\Devcenter\so...est\..\M
+    + CategoryInfo          : ResourceUnavailable: (D:\Devcenter\so...est\..\M
+    + CategoryInfo          : ResourceUnavailable: (D:\Devcenter\so...est\..\M
+   odules\:String) [Import-Module], FileNotFoundException
+   odules\:String) [Import-Module], FileNotFoundException
+   odules\:String) [Import-Module], FileNotFoundException
+    + FullyQualifiedErrorId : Modules_ModuleNotFound,Microsoft.PowerShell.Comm
+    + FullyQualifiedErrorId : Modules_ModuleNotFound,Microsoft.PowerShell.Comm
+    + FullyQualifiedErrorId : Modules_ModuleNotFound,Microsoft.PowerShell.Comm
+   ands.ImportModuleCommand
+   ands.ImportModuleCommand
+   ands.ImportModuleCommand
+
+
+
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+
+PS D:\Devcenter\sources\SuperAdmin3264\powershell\test> .\Test-IndexIPV4.ps1
+Transcription démarrée, le fichier de sortie est D:\Devcenter\sources\SuperAdmi
+Transcription démarrée, le fichier de sortie est D:\Devcenter\sources\SuperAdmi
+Transcription démarrée, le fichier de sortie est D:\Devcenter\sources\SuperAdmi
+n3264\powershell\test\Log.txt
+n3264\powershell\test\Log.txt
+n3264\powershell\test\Log.txt
+Module à tester : D:\Devcenter\sources\SuperAdmin3264\powershell\test\..\Module
+Module à tester : D:\Devcenter\sources\SuperAdmin3264\powershell\test\..\Module
+Module à tester : D:\Devcenter\sources\SuperAdmin3264\powershell\test\..\Module
+s\
+s\
+s\
+Import-Module : Le module «
+Import-Module : Le module «
+Import-Module : Le module «
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\..\Modules\» spécifié n'a
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\..\Modules\» spécifié n'a
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\..\Modules\» spécifié n'a
+pas été chargé, car aucun fichier de module valide n'a été trouvé dans un
+pas été chargé, car aucun fichier de module valide n'a été trouvé dans un
+pas été chargé, car aucun fichier de module valide n'a été trouvé dans un
+répertoire de module.
+répertoire de module.
+répertoire de module.
+Au caractère
+Au caractère
+Au caractère
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\Test-IndexIPV4.ps1:11 : 3
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\Test-IndexIPV4.ps1:11 : 3
+D:\Devcenter\sources\SuperAdmin3264\powershell\test\Test-IndexIPV4.ps1:11 : 3
++   Import-Module -name  $ModuleAtester -Force -Verbose
++   Import-Module -name  $ModuleAtester -Force -Verbose
++   Import-Module -name  $ModuleAtester -Force -Verbose
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (D:\Devcenter\so...est\..\M
+    + CategoryInfo          : ResourceUnavailable: (D:\Devcenter\so...est\..\M
+    + CategoryInfo          : ResourceUnavailable: (D:\Devcenter\so...est\..\M
+   odules\:String) [Import-Module], FileNotFoundException
+   odules\:String) [Import-Module], FileNotFoundException
+   odules\:String) [Import-Module], FileNotFoundException
+    + FullyQualifiedErrorId : Modules_ModuleNotFound,Microsoft.PowerShell.Comm
+    + FullyQualifiedErrorId : Modules_ModuleNotFound,Microsoft.PowerShell.Comm
+    + FullyQualifiedErrorId : Modules_ModuleNotFound,Microsoft.PowerShell.Comm
+   ands.ImportModuleCommand
+   ands.ImportModuleCommand
+   ands.ImportModuleCommand
+
+
+
