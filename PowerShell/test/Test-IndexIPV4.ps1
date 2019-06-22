@@ -1,3 +1,10 @@
+### Cas de test
+Function TestGetIndexIpv4ok
+{
+  $Resultat = Get-IndexIPV4
+  Write-Output ('Résultat du test : ' + $Resultat)
+}
+
 ### Tests des modules
 try
 {
@@ -8,7 +15,8 @@ try
   $ModuleAtester = $PSScriptRoot + '\..\Modules\LabSA3264.psm1'
   Write-Output ("Module à tester : " + $ModuleAtester)
   
-  Import-Module -name  $ModuleAtester -Force -Verbose  
+  Import-Module -name  $ModuleAtester -Force -Verbose 
+  TestGetIndexIpv4ok 
 }
 catch
 {
