@@ -1,6 +1,7 @@
 ### Cas de test
 Function TestGetIndexIpv4ok
 {
+  Get-NetIPAddress
   $Resultat = Get-IndexIPV4
   Write-Output ('Résultat du test : ' + $Resultat)
 }
