@@ -2,8 +2,8 @@
 
 Function DebutInstallaation()
 {
-  Start-Transcript z:\SuperAdmin3264\PowerShell\CDom.txt
-  "Installer la configuration de contr�lleur de domaine pour le lab"
+  Start-Transcript ($PSScriptRoot + "\Loginstall.txt")
+  "Installer la configuration de contrôlleur de domaine pour le lab"
 }
 
 Function Set-Resolution()
@@ -27,8 +27,17 @@ Function Verifie-TimeZone()
 Function Set-Ethernet()
 {
   "Test de l'interface ethernet"
-  $IPV4 = ..\Communs\Get-IndexPV4.ps1
-  Write-Output  $IPV4
+  $IndexIPV4 = . Get-IndexPV4
+  if ($IndexIPV4 -eq -1)
+  {
+    throw "La carte résuau ethernet de l'ordinateur n'est pas correctement configurée, interfacealias devrait être 'Ethernet'"
+  }
+  else
+  {
+     Write-Output "Configuration réseau avant changement"
+    Get-NetIPAddress -InterfaceIndex $IndexIPV4 
+  }
+  
 }
 
 Function FinInstallation()
