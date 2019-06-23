@@ -31,4 +31,3 @@ finally
 
 
 
-#$Resultat = $PSScriptRoot..\Communs\Get-IndexIPV4.ps1

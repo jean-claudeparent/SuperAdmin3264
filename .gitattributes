@@ -1,2 +1,8 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.ps1 text
+*.psm1 texte
+*.bat text
+*.cmd text
+*.log text
+*.txt text
