@@ -6,6 +6,8 @@ Function TestGetIndexIpv4ok
   Write-Output ('Résultat du test : ' + $Resultat)
 }
 
+
+
 ### Tests des modules
 try
 {
