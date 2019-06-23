@@ -4,6 +4,7 @@ Function DebutInstallaation()
 {
   Start-Transcript ($PSScriptRoot + "\Loginstall.txt")
   "Installer la configuration de contrôlleur de domaine pour le lab"
+Import-Module -name  ($PSScriptRoot + '\..\Modules\LabSA3264.psm1') -force
 }
 
 Function Set-Resolution()
