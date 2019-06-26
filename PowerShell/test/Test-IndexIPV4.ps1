@@ -4,6 +4,11 @@ Function TestGetIndexIpv4ok
   Get-NetIPAddress
   $Resultat = Get-IndexIPV4
   Write-Output ('Résultat du test : ' + $Resultat)
+  if ($Resultat -eq -1) 
+  {
+    throw "La fonctionn'a pas produit un résultat positif"
+  }
+  Set-IpV4Adresse -Index $Resultat -Adresse '192.168.0.98'
 }
 
 

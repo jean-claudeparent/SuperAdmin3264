@@ -1,79 +1,36 @@
 ﻿**********************
-Début de la transcription Windows PowerShell
-Heure de début : 20190622132321
-Nom d'utilisateur : LENOVO-PC\Proprio
-Utilisateur RunAs : LENOVO-PC\Proprio
-Ordinateur : LENOVO-PC (Microsoft Windows NT 6.3.9600.0)
+Début de la transcription Windows Powershell
+Heure de début : 20190626180053
+Nom d'utilisateur : WIN-OI3QKC10E66\Administrateur
+Utilisateur runAs : WIN-OI3QKC10E66\Administrateur
+Ordinateur : WIN-OI3QKC10E66 (Microsoft Windows NT 10.0.14393.0)
 Application hôte : C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
-ID de processus : 9688
+ID de processus : 2892
+PSVersion: 5.1.14393.1884
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.1884
+BuildVersion: 10.0.14393.1884
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
 **********************
-Transcription démarrée, le fichier de sortie est D:\Devcenter\sources\SuperAdmi
-n3264\powershell\test\Log.txt
-Module à tester : D:\Devcenter\sources\SuperAdmin3264\powershell\test\..\Module
-s\LabSA3264.psm1
-COMMENTAIRES : Suppression de la fonction importée « Get-IndexIPV4 ».
-COMMENTAIRES : Chargement du module à partir du chemin « D:\Devcenter\sources\SuperAdmin3264\powershell\Modules\LabSA3264.psm1 ».
-COMMENTAIRES : Importation de la fonction « Get-IndexIPV4 ».
-
-
-IPAddress         : fe80::5efe:192.168.0.109%4
-InterfaceIndex    : 4
-InterfaceAlias    : isatap.{AA81316C-3CC8-4D0F-8EB2-6A2630A0BF24}
-AddressFamily     : IPv6
-Type              : Unicast
-PrefixLength      : 128
-PrefixOrigin      : WellKnown
-SuffixOrigin      : Link
-AddressState      : Deprecated
-ValidLifetime     : Infinite ([TimeSpan]::MaxValue)
-PreferredLifetime : Infinite ([TimeSpan]::MaxValue)
-SkipAsSource      : False
-PolicyStore       : ActiveStore
-
-IPAddress         : ::1
-InterfaceIndex    : 1
-InterfaceAlias    : Loopback Pseudo-Interface 1
-AddressFamily     : IPv6
-Type              : Unicast
-PrefixLength      : 128
-PrefixOrigin      : WellKnown
-SuffixOrigin      : WellKnown
-AddressState      : Preferred
-ValidLifetime     : Infinite ([TimeSpan]::MaxValue)
-PreferredLifetime : Infinite ([TimeSpan]::MaxValue)
-SkipAsSource      : False
-PolicyStore       : ActiveStore
-
-IPAddress         : 127.0.0.1
-InterfaceIndex    : 1
-InterfaceAlias    : Loopback Pseudo-Interface 1
-AddressFamily     : IPv4
-Type              : Unicast
-PrefixLength      : 8
-PrefixOrigin      : WellKnown
-SuffixOrigin      : WellKnown
-AddressState      : Preferred
-ValidLifetime     : Infinite ([TimeSpan]::MaxValue)
-PreferredLifetime : Infinite ([TimeSpan]::MaxValue)
-SkipAsSource      : False
-PolicyStore       : ActiveStore
-
-IPAddress         : 192.168.0.109
-InterfaceIndex    : 3
-InterfaceAlias    : Ethernet
-AddressFamily     : IPv4
-Type              : Unicast
-PrefixLength      : 24
-PrefixOrigin      : Dhcp
-SuffixOrigin      : Dhcp
-AddressState      : Preferred
-ValidLifetime     : 10:18:51
-PreferredLifetime : 10:18:51
-SkipAsSource      : False
-PolicyStore       : ActiveStore
-
-Résultat du test : 3
+Transcription démarrée, le fichier de sortie est \\lenovo-pc\devcenter\Sources\SuperAdmin3264\PowerShell\test\Log.txt
+Module à tester : \\lenovo-pc\devcenter\Sources\SuperAdmin3264\PowerShell\test\..\Modules\LabSA3264.psm1
+EN CLAIR : Chargement du module à partir du chemin « \\lenovo-pc\devcenter\Sources\SuperAdmin3264\PowerShell\test\..\Modules\LabSA3264.psm1 ».
+>> Erreur de terminaison (Import-Module) : « Impossible de charger le fichier \\lenovo-pc\devcenter\Sources\SuperAdmin3264\PowerShell\Modules\LabSA3264.psm1, car vous avez choisi de ne pas exécuter ce logiciel maintenant. »
+Import-Module : Impossible de charger le fichier \\lenovo-pc\devcenter\Sources\
+SuperAdmin3264\PowerShell\Modules\LabSA3264.psm1, car vous avez choisi de ne
+pas exécuter ce logiciel maintenant.
+Au caractère \\lenovo-pc\devcenter\Sources\SuperAdmin3264\PowerShell\test\Test-
+IndexIPV4.ps1:26 : 3
++   Import-Module -name  $ModuleAtester -Force -Verbose
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : Erreur de sécurité: (:) [Import-Module], PSSecu
+  rityException
+    + FullyQualifiedErrorId : UnauthorizedAccess,Microsoft.PowerShell.Commands
+   .ImportModuleCommand
 **********************
 Fin de la transcription Windows PowerShell
-Heure de fin : 20190622132322
+Heure de fin : 20190626180121
 **********************

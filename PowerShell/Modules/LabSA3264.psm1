@@ -26,4 +26,15 @@ function Get-IndexIPV4
    return $indexResultat
 }
 
+Function Set-IPV4()
+{
+  Param (
+  [Parameter(Mandatory=$true)]
+    Integer $Index,
+    [Parameter(Mandatory=$true)]
+    String $IpV4Adresse)
+
+
+}
+
 Export-ModuleMember -Function *

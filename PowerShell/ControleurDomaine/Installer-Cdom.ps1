@@ -50,6 +50,8 @@ Function Verifie-TimeZone()
 
 
 
+
+
 Function Set-Ethernet()
 
 {
@@ -69,6 +71,8 @@ Function Set-Ethernet()
   else
 
   {
+     Set-IPB4 $IndexIPV4
+#IPv4Address
 
      Write-Output "Configuration réseau avant changement"
 
