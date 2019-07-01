@@ -1,66 +1,6 @@
-﻿µ
+﻿{}
 []
 |\
 <>
 ||
- (c# or)
-
-"@~
-==<-1q!x8:Vb^<
-
-418 780 2399
-
-=<-1q!x8:Vb^<
-
-
-<>
-#@
-|| Operator (C# Reference)
-
-
-/
-µ
-@
-/
-
-\
-
-String[] args
-
-{file name:theAttachment} at after last paragraph
-   end tell
-
-
-
-afp://Mac%20mini%20de%20Jean-Claude._afpovertcp._tcp.local/Seaga
-te%20Backup%20Plus%20Drive
-a
-
-fp://iMac._afpovertcp._tcp.local/
-/
-Volumes/iTunes/iTunes/iTunes Media 
-
-<-1q!x8:Vb^<
-1tazu58ta
-this.Close();
-                Console.Write("VerifierFinie thread fini"); 
-                Console.WriteLine(Message );
-                if ((Message == null) || (Message == ""))
-                    Console.Write("Erreur de programmation le message est vide"); 
-                if (ExceptionRencontree)
-                    {
-                    Console.Write("Erreur=­" + 
-                        ExceptionGlobale.Message );
-                    if (! Interactif && !Avertir)
-                        Environment.Exit(CodeDeRetour);
-                    } else
-                        if (! Interactif )
-                            Environment.Exit(CodeDeRetour);
-                
-
-
-
-
-
-
-            }
+             }
