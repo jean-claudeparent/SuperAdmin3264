@@ -30,11 +30,34 @@ Function Set-IPV4()
 {
   Param (
   [Parameter(Mandatory=$true)]
-    Integer $Index,
+    [Int] $Index,
     [Parameter(Mandatory=$true)]
-    String $IpV4Adresse)
-
-
+    [String] $IpV4Adresse)
+    "Ok"
 }
+
+
+
+
+
+function Get-IPReserve()
+{
+  $Serveyr = $env:COMPUTERNAME
+  $Rsultat = "Aucune"
+
+  if ($Serveyr -eq "dev2w2016")
+  {
+    $Resultat = "192.168.0.70"
+  }
+  if ($Serveyr -eq "contdom")
+  {
+    $Resultat = "192.168.0.71"
+  }
+
+  return $Resultat
+}
+
+
+# Explicitement demander l'exportation de toutes les fonctions
 
 Export-ModuleMember -Function *
