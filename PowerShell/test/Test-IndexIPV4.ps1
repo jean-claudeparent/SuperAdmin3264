@@ -8,10 +8,14 @@ Function TestGetIndexIpv4ok
   {
     throw "La fonctionn'a pas produit un résultat positif"
   }
-  Set-IpV4Adresse -Index $Resultat -Adresse '192.168.0.98'
+  
 }
 
 
+Function TestSetIndexIpv4ok
+{
+    throw "Pas encore implémenté"
+}
 
 ### Tests des modules
 try
@@ -24,7 +28,10 @@ try
   Write-Output ("Module à tester : " + $ModuleAtester)
   
   Import-Module -name  $ModuleAtester -Force -Verbose 
+
+  # Cas de test
   TestGetIndexIpv4ok 
+  TestSetIndexIpv4ok
 }
 catch
 {
