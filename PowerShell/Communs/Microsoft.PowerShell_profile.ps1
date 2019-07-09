@@ -1,8 +1,13 @@
 Write-Output "Application du profile : Profile v 1.0.0"
+Start-Transcript ($PSscriptroot + "\log profile.txt")
+
 "Application des couleurs personnalisées"
 
 $CouleurTexte = "Black"
 $CouleurFond ="White"
+
+$Host.UI.RawUI.ForegroundColor = Gray
+$Host.UI.RawUI.BackgroundColor = $CouleurFond
 
 # Debug
 $Host.PrivateData.DebugBackgroundColor = $CouleurFond
@@ -16,6 +21,7 @@ $Host.PrivateData.ErrorForegroundColor = $CouleurTexte
 # Verbose
 $Host.PrivateData.VerboseBackgroundColor = $CouleurFond
 $Host.PrivateData.VerboseForegroundColor = $CouleurTexte
+
 
 # Warning
 $Host.PrivateData.WarningBackgroundColor = $CouleurFond
@@ -49,3 +55,7 @@ catch
 # $Host.PrivateData.TokenColors = $CouleurTex
 cd $PSScriptRoot
 # $Host.PrivateData
+$HOST.PrivateData
+$HOST.UI
+$HOST.UI.RawUI
+Stop-Transcript

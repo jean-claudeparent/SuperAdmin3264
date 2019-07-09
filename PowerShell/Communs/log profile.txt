@@ -1,0 +1,69 @@
+﻿**********************
+Début de la transcription Windows PowerShell
+Heure de début : 20190709171654
+Nom d'utilisateur : DEVPC\nours
+Utilisateur runAs :  DEVPC\nours
+Nom de la configuration : 
+Ordinateur : DEVPC (Microsoft Windows NT 10.0.17763.0)
+Application hôte : C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ID de processus : 11792
+PSVersion: 5.1.17763.316
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.316
+BuildVersion: 10.0.17763.316
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcription démarrée, le fichier de sortie est C:\users\nours\Documents\GitHub\SuperAdmin3264\PowerShell\Communs\log profile.txt
+Application des couleurs personnalisées
+Gray : Le terme «Gray» n'est pas reconnu comme nom d'applet de commande, fonction, fichier de script ou programme 
+exécutable. Vérifiez l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le chemin d'accès est correct 
+et réessayez.
+Au caractère C:\users\nours\Documents\GitHub\SuperAdmin3264\PowerShell\Communs\Microsoft.PowerShell_profile.ps1:9 : 34
++ $Host.UI.RawUI.ForegroundColor = Gray
++                                  ~~~~
+    + CategoryInfo          : ObjectNotFound: (Gray:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+Gray : Le terme «Gray» n'est pas reconnu comme nom d'applet de commande, fonction, fichier de script ou programme
+exécutable. Vérifiez l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le chemin d'accès est correct
+et réessayez.
+Au caractère C:\users\nours\Documents\GitHub\SuperAdmin3264\PowerShell\Communs\Microsoft.PowerShell_profile.ps1:9 : 34
++ $Host.UI.RawUI.ForegroundColor = Gray
++                                  ~~~~
+    + CategoryInfo          : ObjectNotFound: (Gray:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+
+
+ErrorForegroundColor    : Black
+ErrorBackgroundColor    : White
+WarningForegroundColor  : Black
+WarningBackgroundColor  : White
+DebugForegroundColor    : Black
+DebugBackgroundColor    : White
+VerboseForegroundColor  : Black
+VerboseBackgroundColor  : White
+ProgressForegroundColor : Black
+ProgressBackgroundColor : White
+
+RawUI                   : System.Management.Automation.Internal.Host.InternalHostRawUserInterface
+SupportsVirtualTerminal : True
+
+ForegroundColor       : Gray
+BackgroundColor       : White
+CursorPosition        : 0,99
+WindowPosition        : 0,70
+CursorSize            : 25
+BufferSize            : 120,9001
+WindowSize            : 120,30
+MaxWindowSize         : 120,44
+MaxPhysicalWindowSize : 128,44
+KeyAvailable          : True
+WindowTitle           : powershell -BpmmesVouleurs
+
+**********************
+Fin de la transcription Windows PowerShell
+Heure de fin : 20190709171655
+**********************
